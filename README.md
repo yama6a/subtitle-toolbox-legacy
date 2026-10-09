@@ -1,3 +1,20 @@
+> [!CAUTION]
+> ## This package is abandoned
+>
+> `ymakhloufi/subtitle-toolbox` gets no more releases. This repository is a read-only archive of its 1.x and 2.x versions.
+>
+> The project continues as **`yama6a/subtitle-toolbox-php`**:
+> - Code and issues: https://github.com/yama6a/subtitle-toolbox-php
+> - Packagist: https://packagist.org/packages/yama6a/subtitle-toolbox-php
+> - Upgrade from 2.x: [docs/upgrade-3.0.md](https://github.com/yama6a/subtitle-toolbox-php/blob/master/docs/upgrade-3.0.md)
+>
+> ```sh
+> composer remove ymakhloufi/subtitle-toolbox
+> composer require yama6a/subtitle-toolbox-php
+> ```
+>
+> Never install both packages together. They share the `SubtitleToolbox\` namespace.
+
 # Subtitle Toolbox
 [![Packagist version](https://img.shields.io/packagist/v/ymakhloufi/subtitle-toolbox)](https://packagist.org/packages/ymakhloufi/subtitle-toolbox)
 [![CI](https://github.com/yama6a/subtitle-toolbox/actions/workflows/ci.yaml/badge.svg?branch=master)](https://github.com/yama6a/subtitle-toolbox/actions/workflows/ci.yaml)
